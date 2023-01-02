@@ -9,6 +9,8 @@ module.exports = {
       backgroundImage: {
         'hero-pattern':
           'linear-gradient(to right bottom, rgba(167, 139, 250, 0.8), rgba(91, 33, 182, 0.8)), url("/hero.webp")',
+        'features-pattern':
+          'linear-gradient(to right bottom, rgba(167, 139, 250, 0.8), rgba(91, 33, 182, 0.8)), url("/bg-features.webp")',
       },
       keyframes: {
         'in-left': {

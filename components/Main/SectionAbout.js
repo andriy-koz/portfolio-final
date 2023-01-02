@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const SectionAbout = () => {
   return (
-    <section className='bg-slate-800 py-96 -mt-[25vh]'>
+    <section className='bg-slate-800 pt-96 pb-56 -mt-[32vh] px-8'>
       <div className='mb-28 text-center'>
         <h2 className='uppercase text-3xl bg-gradient-to-r from-violet-300 to-violet-500 inline-block bg-clip-text text-transparent'>
           diseño y desarrollo de sitios web personalizados
@@ -28,7 +28,7 @@ const SectionAbout = () => {
           </p>
           <a
             href='#'
-            className='uppercase py-3 px-1 font-extrabold text-violet-400 border-b-2 border-b-violet-400 inline-block hover:-translate-y-1 active:-translate-y-0.5 mt-14 transition-all hover:shadow-lg active:shadow-md animation-fill-back animate-in-bottom hover:bg-violet-400 hover:text-slate-800 hover:border-b-0'>
+            className='uppercase py-3 px-1 font-extrabold text-violet-400 border-b-2 border-t-2 border-t-slate-800 border-b-violet-400 inline-block hover:-translate-y-1 active:-translate-y-0.5 mt-14 transition-all hover:shadow-lg active:shadow-md animation-fill-back animate-in-bottom hover:bg-violet-400 hover:text-slate-800 hover:border-t-violet-400'>
             Cotización gratuita &rarr;
           </a>
         </div>

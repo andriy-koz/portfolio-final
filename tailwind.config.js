@@ -11,6 +11,12 @@ module.exports = {
           'linear-gradient(to right bottom, rgba(167, 139, 250, 0.8), rgba(91, 33, 182, 0.8)), url("/hero.webp")',
         'features-pattern':
           'linear-gradient(to right bottom, rgba(167, 139, 250, 0.8), rgba(91, 33, 182, 0.8)), url("/bg-features.webp")',
+        card1:
+          'linear-gradient(to bottom right, rgba(254, 215, 170, .7), rgba(234, 88, 12, .7)), url("/wines.webp")',
+        card2:
+          'linear-gradient(to right bottom, rgba(165, 243, 252, .7), rgba(8, 145, 178, .7)), url("/todo.webp")',
+        card3:
+          'linear-gradient(to right bottom, rgba(221, 214, 254, .7), rgba(124, 58, 237, .7)), url("/portfolio.webp")',
       },
       keyframes: {
         'in-left': {

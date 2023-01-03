@@ -1,4 +1,5 @@
 import Features from './Features';
+import Projects from './Projects';
 import SectionAbout from './SectionAbout';
 
 const Main = () => {
@@ -6,6 +7,7 @@ const Main = () => {
     <main>
       <SectionAbout />
       <Features />
+      <Projects />
     </main>
   );
 };

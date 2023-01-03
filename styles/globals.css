@@ -17,7 +17,28 @@
   .clip-pattern {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   }
+  .clip-card-pattern {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
   .animation-fill-back {
     animation-fill-mode: backwards;
+  }
+  .rotate-y-180 {
+    transform: rotateY(-180deg);
+  }
+  .rotate-y-0 {
+    transform: rotateY(0);
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .bg-orange {
+    background-image: linear-gradient(to bottom right, #fed7aa, #ea580c);
+  }
+  .bg-cyan {
+    background-image: linear-gradient(to bottom right, #a5f3fc, #0891b2);
+  }
+  .bg-violet {
+    background-image: linear-gradient(to bottom right, #ddd6fe, #7c3aed);
   }
 }

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import BtnCta from './Main/BtnCta';
 
 const Header = () => {
   return (
@@ -15,11 +16,7 @@ const Header = () => {
             Desarrollo web y marketing digital
           </span>
         </h1>
-        <a
-          href='#'
-          className='uppercase py-4 px-10 bg-white color text-zinc-900 inline-block hover:-translate-y-1 active:-translate-y-0.5 mt-14 rounded-full transition-all hover:shadow-lg active:shadow-md animation-fill-back animate-in-bottom'>
-          explora nuestros proyectos
-        </a>
+        <BtnCta text='explora nuestros proyectos' />
       </div>
     </header>
   );

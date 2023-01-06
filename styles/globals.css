@@ -20,6 +20,9 @@
   .clip-card-pattern {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   }
+  .clip-card-pattern-child {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
   .animation-fill-back {
     animation-fill-mode: backwards;
   }
@@ -40,5 +43,26 @@
   }
   .bg-violet {
     background-image: linear-gradient(to bottom right, #ddd6fe, #7c3aed);
+  }
+  .bg-orange-transparent {
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(254, 215, 170, 0.8),
+      rgba(234, 88, 12, 0.8)
+    );
+  }
+  .bg-cyan-transparent {
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(165, 243, 252, 0.8),
+      rgba(8, 145, 178, 0.8)
+    );
+  }
+  .bg-violet-transparent {
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(221, 214, 254, 0.8),
+      rgba(124, 58, 237, 0.8)
+    );
   }
 }

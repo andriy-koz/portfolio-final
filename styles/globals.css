@@ -14,6 +14,10 @@
 }
 
 @layer utilities {
+  .shape-outside {
+    float: left;
+    shape-outside: circle(64px at 64px 50%);
+  }
   .clip-pattern {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   }

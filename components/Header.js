@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import BtnCta from './Main/BtnCta';
+import BtnCta from './UI/BtnCta';
 
 const Header = () => {
   return (

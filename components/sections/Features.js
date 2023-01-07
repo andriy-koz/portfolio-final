@@ -1,8 +1,8 @@
-import Card from './Card';
+import Card from '../UI/Card';
 
 const Features = () => {
   return (
-    <section className='bg-features-pattern bg-cover -skew-y-6 -mt-20'>
+    <section className='bg-features-pattern bg-cover -skew-y-6 -mt-20 z-20 relative'>
       <div className='flex max-w-7xl justify-between mx-auto space-x-16 px-8 py-48 skew-y-6'>
         <Card
           iconsrc='icon-globe.svg'

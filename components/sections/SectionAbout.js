@@ -1,12 +1,11 @@
 import Image from 'next/image';
+import SubTitle from '../UI/SubTitle';
 
 const SectionAbout = () => {
   return (
     <section className='bg-slate-800 pt-96 pb-56 -mt-[32vh] px-8'>
       <div className='mb-28 text-center'>
-        <h2 className='uppercase text-3xl bg-gradient-to-r from-violet-300 to-violet-500 inline-block bg-clip-text text-transparent'>
-          diseño y desarrollo de sitios web personalizados
-        </h2>
+        <SubTitle text='diseño y desarrollo de sitios web personalizados' />
       </div>
       <div className='flex max-w-7xl mx-auto space-x-8'>
         <div className='flex-1'>

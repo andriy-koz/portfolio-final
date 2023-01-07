@@ -1,14 +1,14 @@
-import ProjectCard from './ProjectCard';
+import ProjectCard from '../UI/ProjectCard';
+import BtnCta from '../UI/BtnCta';
+import SubTitle from '../UI/SubTitle';
 
 const Projects = () => {
   return (
-    <div className='bg-slate-800 pt-96 pb-56 -mt-[26vh] px-8'>
+    <div className='bg-slate-800 pt-96 pb-72 -mt-[26vh] px-8 relative z-10'>
       <div className='mb-20 text-center'>
-        <h2 className='uppercase text-3xl bg-gradient-to-r from-violet-300 to-violet-500 inline-block bg-clip-text text-transparent'>
-          nuestros proyectos
-        </h2>
+        <SubTitle text='nuestros proyectos' />
       </div>
-      <div className='flex max-w-7xl mx-auto space-x-20 h-72'>
+      <div className='flex max-w-7xl mx-auto space-x-20 h-72 mb-32'>
         <ProjectCard
           bgColor='bg-orange-transparent'
           bgImg='bg-card1'
@@ -42,6 +42,9 @@ const Projects = () => {
             'Filtrar las tareas visibles',
           ]}
         />
+      </div>
+      <div className='absolute bottom-20 left-1/2 -translate-x-1/2'>
+        <BtnCta text='ver codigo en Github' color />
       </div>
     </div>
   );

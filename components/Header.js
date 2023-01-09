@@ -8,7 +8,7 @@ const Header = () => {
         <Image src='/logo-white.png' alt='logo' height={35} width={70} />
       </div>
       <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-full text-center'>
-        <h1 className='text-white uppercase font-semibold'>
+        <h1 className='text-white uppercase font-semibold mb-14'>
           <span className='block text-6xl tracking-wider animate-in-left'>
             KOZ DEV
           </span>

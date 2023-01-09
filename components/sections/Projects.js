@@ -4,7 +4,7 @@ import SubTitle from '../UI/SubTitle';
 
 const Projects = () => {
   return (
-    <div className='bg-slate-800 pt-96 pb-72 -mt-[26vh] px-8 relative z-10'>
+    <div className='bg-slate-800 pt-96 pb-80 -mt-[26vh] px-8 relative z-10'>
       <div className='mb-20 text-center'>
         <SubTitle text='nuestros proyectos' />
       </div>
@@ -15,7 +15,7 @@ const Projects = () => {
           title='Bodega de vinos'
           lista={[
             'Amplia selección de vinos',
-            'Información detallada sobre cada vino',
+            'Información sobre cada vino',
             'Pago seguro y entrega rápida',
             'Suscripciones o club de vinos',
           ]}
@@ -25,10 +25,10 @@ const Projects = () => {
           bgImg='bg-card3'
           title='Portfolio minimalista'
           lista={[
-            'Proyectos profesionales destacados',
+            'Proyectos destacados',
             'Experiencia laboral relevante',
             'Educación y formación académica',
-            'Habilidades técnicas y de comunicación',
+            'Habilidades técnicas',
           ]}
         />
         <ProjectCard
@@ -43,7 +43,7 @@ const Projects = () => {
           ]}
         />
       </div>
-      <div className='absolute bottom-20 left-1/2 -translate-x-1/2'>
+      <div className='absolute bottom-28 left-1/2 -translate-x-1/2'>
         <BtnCta text='ver codigo en Github' color />
       </div>
     </div>

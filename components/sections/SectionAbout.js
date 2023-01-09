@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import SubTitle from '../UI/SubTitle';
+import BtnSecondary from '../UI/BtnSecondary';
 
 const SectionAbout = () => {
   return (
@@ -20,16 +21,12 @@ const SectionAbout = () => {
           <h3 className='my-7 uppercase text-xl'>
             Últimas tecnologías en diseño y desarrollo
           </h3>
-          <p className='text-lg'>
+          <p className='text-lg mb-14'>
             Ofrecemos una amplia gama de servicios, incluyendo diseño de sitios
             web personalizado, desarrollo de aplicaciones web, optimización de
             motores de búsqueda y marketing digital.
           </p>
-          <a
-            href='#'
-            className='uppercase py-3 px-1 font-extrabold text-violet-400 border-b-2 border-t-2 border-t-slate-800 border-b-violet-400 inline-block hover:-translate-y-1 active:-translate-y-0.5 mt-14 transition-all hover:shadow-lg active:shadow-md animation-fill-back animate-in-bottom hover:bg-violet-400 hover:text-slate-800 hover:border-t-violet-400'>
-            Cotización gratuita &rarr;
-          </a>
+          <BtnSecondary text='cotización gratuita' />
         </div>
         <div className='flex-1'>
           <div className='relative group'>

@@ -10,7 +10,9 @@ const Header = () => {
       <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-full text-center'>
         <h1 className='text-white uppercase font-semibold mb-14'>
           <span className='block text-5xl tracking-wider animate-in-left'>
-            <span className='tracking-tighter text-cyan-200 text-6xl'>KOZ</span>{' '}
+            <span className='tracking-tighter text-6xl bg-gradient-to-r from-cyan-400 to-cyan-300 bg-clip-text text-transparent'>
+              KOZ
+            </span>{' '}
             DEV
           </span>
           <span className='block text-xl tracking-wide mt-3 animate-in-right'>

@@ -17,6 +17,7 @@ module.exports = {
           'linear-gradient(to right bottom, rgba(165, 243, 252, .7), rgba(8, 145, 178, .7)), url("/todo.webp")',
         card3:
           'linear-gradient(to right bottom, rgba(221, 214, 254, .7), rgba(124, 58, 237, .7)), url("/portfolio.webp")',
+        'form-section': 'url("/form-bg.webp")',
       },
       keyframes: {
         'in-left': {

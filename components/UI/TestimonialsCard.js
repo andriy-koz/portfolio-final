@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 const TestimonialsCard = ({ name, text, title, img }) => {
   return (
-    <div className='bg-white/75 h-64 w-3/4 mx-auto -skew-x-12 shadow-lg flex justify-center items-center group'>
+    <div className='bg-white/75 h-64 w-[83%] mx-auto -skew-x-12 shadow-lg flex justify-center items-center group'>
       <div className='skew-x-12 pr-20 pl-24 mx-auto'>
-        <div className='w-max h-max shape-outside rounded-full overflow-hidden -translate-x-4 mt-4 relative'>
+        <div className='w-max h-max shape-outside rounded-full overflow-hidden -translate-x-4 mt-6 relative'>
           <div className='transition-all duration-300 scale-110 group-hover:scale-100 group-hover:blur-[2px] group-hover:brightness-75'>
             <Image
               height={128}

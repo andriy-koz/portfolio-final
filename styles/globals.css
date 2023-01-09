@@ -27,6 +27,9 @@
   .clip-card-pattern-child {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   }
+  .clip-form {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+  }
   .animation-fill-back {
     animation-fill-mode: backwards;
   }

@@ -4,7 +4,7 @@ import BtnSecondary from '../UI/BtnSecondary';
 
 const Testimonials = () => {
   return (
-    <section className='flex flex-col justify-center align-middle text-center space-y-16 relative pb-12'>
+    <section className='flex flex-col justify-center align-middle text-center space-y-16 relative pb-24 pt-12'>
       <div className='absolute top-0 h-full w-full -z-10 brightness-50'>
         <video autoPlay muted loop className='h-full w-full object-cover'>
           <source src='/testimonials-video.mp4' />
@@ -20,7 +20,7 @@ const Testimonials = () => {
       <TestimonialsCard
         img='/testimonial-woman.webp'
         name='Ana Rodríguez'
-        title='Trabajar con Koz Dev ha sido un verdadero placer'
+        title='Trabajar con ellos fue un verdadero placer'
         text='El equipo es muy profesional y siempre estuvo dispuesto a ayudarnos a alcanzar nuestras metas tecnológicas. La calidad del trabajo es excelente y el resultado superó nuestras expectativas. ¡Los elegiríamos de nuevo para futuros proyectos!'
       />
       <div className='w-max mx-auto'>

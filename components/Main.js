@@ -3,6 +3,7 @@ import Projects from './sections/Projects';
 import SectionAbout from './sections/SectionAbout';
 import Testimonials from './sections/Testimonials';
 import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
       <Projects />
       <Testimonials />
       <Contact />
+      <Footer />
     </main>
   );
 };

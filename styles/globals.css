@@ -72,4 +72,20 @@
       rgba(124, 58, 237, 0.8)
     );
   }
+  .radial-gradient {
+    background: radial-gradient(#4c1d95, #7c3aed);
+  }
+  .bg-nav {
+    background-image: linear-gradient(
+      120deg,
+      transparent 0%,
+      transparent 50%,
+      #fff 50%
+    );
+    background-size: 250%;
+    background-position: 0%;
+  }
+  .bg-nav-hover {
+    background-position: 100%;
+  }
 }

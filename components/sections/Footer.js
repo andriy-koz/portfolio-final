@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-const list = [
+export const list = [
   'inicio',
-  'sobre nosotros',
+  'nosotros',
   'cualidades',
   'proyectos',
   'historias',

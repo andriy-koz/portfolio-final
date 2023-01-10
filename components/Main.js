@@ -4,10 +4,12 @@ import SectionAbout from './sections/SectionAbout';
 import Testimonials from './sections/Testimonials';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
+import Navigation from './Navigation';
 
 const Main = () => {
   return (
     <main>
+      <Navigation />
       <SectionAbout />
       <Features />
       <Projects />

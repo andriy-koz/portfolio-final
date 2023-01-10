@@ -21,8 +21,8 @@ const Footer = () => {
           className='mx-auto'
         />
       </div>
-      <div className='flex justify-between text-slate-200'>
-        <ul className='flex uppercase gap-5 justify-between pt-4 relative'>
+      <div className='flex justify-between text-slate-200 min-[300px]:max-lg:flex-col'>
+        <ul className='flex uppercase gap-5 justify-between pt-4 relative min-[300px]:max-lg:mb-6 min-[300px]:flex-col min-[300px]:items-center'>
           <div className='absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-cyan-300 to-cyan-600' />
           {list.map((item, i) => (
             <li
@@ -34,12 +34,14 @@ const Footer = () => {
         </ul>
         <div className='py-4 relative'>
           <div className='absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-cyan-600 to-cyan-300' />
-          <p>
-            Sitio de muestra construido por <a href='#'>KOZ DEV</a>.
-          </p>
-          <p>
-            Usando <a href='#'>NextJS</a> y <a href='#'>TailwindCSS</a>.
-          </p>
+          <div className='min-[300px]:max-lg:flex min-[300px]:max-lg:gap-2 min-[300px]:max-lg:justify-center'>
+            <p>
+              Sitio de muestra construido por <a href='#'>KOZ DEV</a>.
+            </p>
+            <p>
+              Usando <a href='#'>NextJS</a> y <a href='#'>TailwindCSS</a>.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

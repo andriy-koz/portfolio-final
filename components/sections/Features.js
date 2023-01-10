@@ -2,8 +2,8 @@ import Card from '../UI/Card';
 
 const Features = () => {
   return (
-    <section className='bg-features-pattern bg-cover -skew-y-6 -mt-20 z-20 relative'>
-      <div className='flex max-w-7xl justify-between mx-auto space-x-16 px-8 py-48 skew-y-6'>
+    <section className='bg-features-pattern bg-cover -skew-y-6 -mt-20 z-20 relative min-[300px]:max-lg:mt-44'>
+      <div className='flex max-w-7xl justify-between mx-auto space-x-16 px-8 py-48 skew-y-6 max-[1340px]:flex-col max-[1340px]:justify-center max-[1340px]:items-center max-[1340px]:space-x-0 max-[1340px]:space-y-5'>
         <Card
           iconsrc='icon-globe.svg'
           content='Sitio web profesional y atractivo diseñado especialmente para ti.'

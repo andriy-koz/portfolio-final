@@ -5,11 +5,11 @@ import BtnSecondary from '../UI/BtnSecondary';
 const SectionAbout = () => {
   return (
     <section className='bg-slate-800 pt-96 pb-56 -mt-[32vh] px-8'>
-      <div className='mb-28 text-center'>
+      <div className='mb-28 text-center min-[300px]:max-lg:mb-12'>
         <SubTitle text='diseño y desarrollo de sitios web personalizados' />
       </div>
-      <div className='flex max-w-7xl mx-auto space-x-8'>
-        <div className='flex-1'>
+      <div className='flex max-w-7xl mx-auto space-x-8 min-[300px]:max-lg:space-x-0 min-[300px]:max-lg:flex-col'>
+        <div className='flex-1 min-[300px]:max-lg:mb-12'>
           <h3 className='mb-7 uppercase text-xl'>
             Soluciones que se ajustan a tus objetivos y presupuesto
           </h3>
@@ -21,7 +21,7 @@ const SectionAbout = () => {
           <h3 className='my-7 uppercase text-xl'>
             Últimas tecnologías en diseño y desarrollo
           </h3>
-          <p className='text-lg mb-14'>
+          <p className='text-lg mb-14 min-[300px]:max-lg:mb-7'>
             Ofrecemos una amplia gama de servicios, incluyendo diseño de sitios
             web personalizado, desarrollo de aplicaciones web, optimización de
             motores de búsqueda y marketing digital.

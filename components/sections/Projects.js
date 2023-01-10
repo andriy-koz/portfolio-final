@@ -4,11 +4,11 @@ import SubTitle from '../UI/SubTitle';
 
 const Projects = () => {
   return (
-    <div className='bg-slate-800 pt-96 pb-80 -mt-[26vh] px-8 relative z-10'>
+    <div className='bg-slate-800 pt-96 pb-80 -mt-[26vh] px-8 relative z-10 min-[300px]:max-lg:pb-60'>
       <div className='mb-20 text-center'>
         <SubTitle text='nuestros proyectos' />
       </div>
-      <div className='flex max-w-7xl mx-auto space-x-20 h-72 mb-32'>
+      <div className='flex max-w-7xl mx-auto space-x-20 h-72 mb-32 min-[300px]:max-lg:space-x-0 min-[300px]:max-lg:flex-col min-[300px]:max-lg:h-[1500px] min-[300px]:max-lg:w-2/4 min-[300px]:max-lg:space-y-5 min-[300px]:max-lg:mb-0'>
         <ProjectCard
           bgColor='bg-orange-transparent'
           bgImg='bg-card1'
